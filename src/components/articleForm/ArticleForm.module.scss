@@ -1,0 +1,92 @@
+.Form {
+	margin-left: 32px;
+	width: 938px;
+	height: 701px;
+
+	&--input-text {
+	
+		width: 874px;
+		height: 40px;
+	}
+
+	&--input-tag {
+		margin-left: 32px;
+		display: inline;
+		width: 300px;
+		height: 40px;
+	}
+
+	textarea {
+		width: 874px;
+		height: 168px;
+		resize: none;
+	}
+
+	&--button {
+		display: block;
+		width: 319px;
+		height: 40px;
+		margin-top: 20px;
+		background: #1890FF;
+		border-radius: 4px;
+		cursor: pointer;
+	}
+
+	&--btn-tag {
+		display: inline-block;
+		width: 136px;
+		height: 40px;
+		border: 1px solid #1890FF;
+		color:  #1890FF;
+		border-radius: 4px;
+		background: #ffffff;
+		margin-left: 14px;
+		cursor: pointer;
+		margin-bottom: 5px;
+	}
+
+	&--btn-remove {
+		width: 118px;
+		height: 40px;
+		align-items: center;
+		padding: 8px 16px;
+		border: 1px solid #F5222D;
+		color: #F5222D;
+		background: #ffffff;
+		box-sizing: border-box;
+		border-radius: 4px;
+		margin-left: 14px;
+		cursor: pointer;
+
+
+	}
+	
+	
+		&--tag{
+			width: 300px;
+			height: 40px;
+margin-bottom: 5px;
+		
+	}
+	
+	&--tags{
+		margin-top: 5px;
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+		align-items: flex-end
+	}
+
+	&--error {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 22px;
+		color: #F5222D;
+	}
+
+
+}

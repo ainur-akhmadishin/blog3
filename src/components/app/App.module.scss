@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Inter-Regular";
+    src: url("../../fonts/Inter-Regular.woff") format("woff"),
+        url("../../fonts/Inter-Regular.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	max-width: 1440px;
+	background-color: #E5E5E5;
+	 font-family: "Inter-Regular", "Arial", "sans-serif";
+}
+ul{
+	list-style: none
+}
+
+p, ul, li{
+margin: 0;
+	padding: 0;
+}
+
+.App{
+		padding-top: 60px;
+		height: 100%;
+		background-color: #E5E5E5;
+		
+}
